@@ -4,6 +4,7 @@
     box-shadow: 0 0 1px 0 black;
     position: fixed;
     background-color: white;
+    z-index: 10;
     
     color: black;
     display: flex;
@@ -22,7 +23,8 @@
     }
 
     &__close {
-        color: white;
+        color: black;
         padding: 5px 10px;
+        border: 1px solid black;
     }
 }

@@ -12,6 +12,7 @@ export default function NavBar(props: any) {
             <div>
                 <Link to="/">Home</Link>
                 <Link to="/products/">Produtos</Link>
+                <Link to="/countries//">Paises</Link>
             </div>
         </nav>
     );
